@@ -8,16 +8,15 @@
 #ifndef TOOLBOX_H
 #define	TOOLBOX_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
 
+#define PI 3.141592653589793
+float Abs(float);
+float Max(float, float);
+float Min(float, float);
+float LimitToInterval(float,float,float);
+float RadianToDegree(float);
+float DegreeToRadian(float);
 
-
-
-#ifdef	__cplusplus
-}
-#endif
 
 #endif	/* TOOLBOX_H */
 
